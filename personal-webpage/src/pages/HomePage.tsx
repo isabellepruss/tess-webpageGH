@@ -8,13 +8,13 @@ import {
   Show,
   VStack,
 } from "@chakra-ui/react";
-import Bio from "./components/Bio";
-import Contact from "./components/Contact";
-import Education from "./components/Education";
-import NavBar from "./components/NavBar";
-import ProfPic from "./components/ProfPic";
-import Research from "./components/Research";
-import Resume from "./components/Resume";
+import Bio from "../components/Bio";
+import Contact from "../components/Contact";
+import Education from "../components/Education";
+import NavBar from "../components/NavBar";
+import ProfPic from "../components/ProfPic";
+import Research from "../components/Research";
+import Resume from "../components/Resume";
 
 const App = () => {
   return (
@@ -28,10 +28,6 @@ const App = () => {
         lg: "200px 1fr",
       }}
     >
-      <GridItem area="nav">
-        <NavBar />
-      </GridItem>
-
       <Show above="lg">
         <GridItem area="aside" paddingX={5}>
           Aside
