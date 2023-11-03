@@ -1,14 +1,14 @@
 import React from "react";
-import { HStack, Image } from "@chakra-ui/react";
+import { HStack, Heading, Image } from "@chakra-ui/react";
 import ColorModeSwitch from "./ColorModeSwitch";
-import SearchInput from "./SearchInput";
-import logo from "../assets/logo.webp";
 
 const NavBar = () => {
   return (
-    <HStack justifyContent="space-between" paddingX="10px" paddingY="10px">
-      <Image src={logo} boxSize="60px"></Image>
-      <SearchInput />
+    <HStack justifyContent="space-between" paddingX="40px" paddingY="30px">
+      <Heading as="h1" size="lg" textAlign="center">
+        The Thirty Years War and Its Profound Influence on Western Classical
+        Music
+      </Heading>
       <ColorModeSwitch />
     </HStack>
   );
