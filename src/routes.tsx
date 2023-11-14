@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage /> },
+      { index: true, element: <HomePage /> },
       {
         path: "/devastation-and-need-for-expression/",
         element: <Devastation />,
